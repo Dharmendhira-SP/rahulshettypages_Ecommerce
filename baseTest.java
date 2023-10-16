@@ -55,7 +55,8 @@ public class baseTest {
 		driver=initializeDriver();
 		lP=new landingPage(driver);
 		lP.goToPage(url);
-		System.out.println("Trying to make conflict");
+
+		System.out.println("The code has been inserted from another user ID");
 		return lP;
 	}
 
