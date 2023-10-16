@@ -55,6 +55,7 @@ public class baseTest {
 		driver=initializeDriver();
 		lP=new landingPage(driver);
 		lP.goToPage(url);
+		System.out.println("Trying to make conflict");
 		return lP;
 	}
 
