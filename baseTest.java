@@ -51,6 +51,7 @@ public class baseTest {
 	{
 		Object prop=loadFile();
 		String url=((Properties) prop).getProperty("appUrl");
+		System.out.println("Updated from github");
 		driver=initializeDriver();
 		lP=new landingPage(driver);
 		lP.goToPage(url);
