@@ -70,5 +70,6 @@ public class baseTest {
 	public void exitBrowser()
 	{
 		driver.quit();
+		System.out.println("Browser has been closed");
 	}
 }
